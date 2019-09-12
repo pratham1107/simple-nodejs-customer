@@ -11,6 +11,6 @@ npm start
 
 SAMPLE USAGE ENDPOINT:
 
-https://simple-customer-list.appspot.com/get_all_customers
+https://simple-customer-list.appspot.com/getCustomers
 
-https://simple-customer-list.appspot.com/get_customer_by_id?id=04
+https://simple-customer-list.appspot.com/getCustomer?id=04
