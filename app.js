@@ -21,8 +21,7 @@ const getCustomers = (id) => {
 
 app.get('/getCustomers', async (req, res, next) => {
     try {
-        const id = req.query.id
-        const [entities] = await getCustomers(id);
+        const [entities] = await getCustomers("");
         res.json(entities)
     } catch (error) {
         next(error);
